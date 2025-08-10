@@ -3,7 +3,7 @@
 int main()
 {
   char ch;
-  printf ("Enter a alphabet : ");
+  printf ("Enter an alphabet : ");
   scanf (" %c", &ch);
 switch(ch){
   case 'a' :
@@ -11,10 +11,10 @@ switch(ch){
   case 'i' :
   case 'o' :
   case 'u' :
-      printf( "%c is a vowal",ch);
+      printf( "%c is a vowel",ch);
       break;
 default:
-      printf("%c is a consonent",ch);
+      printf("%c is a consonant",ch);
 }
     return 0;
 }
